@@ -1,0 +1,41 @@
+gcn_configs.gcn_layers = [(2, 32), (32, 64)]
+gcn_configs.fc_layers = [(64, 32), ]
+
+
+opt = adam
+
+epochs = 100
+
+train_batch = 500
+
+test_bathc = 100
+
+
+test 1:
+    gcn_configs.gcn_layers = [(2, 32), (32, 64)]
+
+    gcn_configs.fc_layers = [(64, 32), ]
+
+    epochs = 100
+    
+    lr = 0.005
+
+    train_loss = 0.07307406701147556
+
+    test_loss = 0.0970608051866293
+
+
+
+test 3: 
+
+    gcn_configs.gcn_layers = [(2, 32), (32, 64)]
+
+    gcn_configs.fc_layers = [(64, 32), (32, 32)]
+    
+    lr = 0.001
+
+    epochs = 200
+    
+    train_loss = 0.0733
+
+    test_loss = 0.1001
